@@ -1,1 +1,21 @@
+# Мобильное приложение “Cocktail Bar”
 
+К сожалению не хватило времени на реализацию проекта.
+
+
+За отведенное мне время удалось реализовать верстку фрагментов с заглавной картинкой,
+списком коктейлей и добавлением нового коктейля.
+
+
+Экран приветсвия:
+![WelcomeScreen](E:\videoAndroidScreen\screenshot_welcome.png)
+
+Экран со списком коктейлей:
+![WelcomeScreen](E:\videoAndroidScreen\screenshot_cocktails_list.png)
+
+Экран создания нового коктейля
+![WelcomeScreen](E:\videoAndroidScreen\screenshot_new_cocktail_part_one.png)
+![WelcomeScreen](E:\videoAndroidScreen\screenshot_new_cocktail_part_two.png)
+
+Гифка работы приложения:
+![WelcomeScreen](E:\videoAndroidScreen\gif.gif)
