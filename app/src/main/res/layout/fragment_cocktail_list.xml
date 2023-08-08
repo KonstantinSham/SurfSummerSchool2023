@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CocktailListFragment">
+
+
+    <TextView
+        android:id="@+id/app_name_tv"
+        style="@style/Text.Regular.36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_cocktails"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pink_iv"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/pink_lemonade"
+        app:layout_constraintEnd_toStartOf="@+id/mojito_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name_tv" />
+
+    <ImageView
+        android:id="@+id/mojito_iv"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/mojito_mocktail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name_tv" />
+
+    <ImageView
+        android:id="@+id/goblet_iv"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/goblet_of_fire"
+        app:layout_constraintEnd_toEndOf="@+id/pink_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pink_iv" />
+
+    <ImageView
+        android:id="@+id/purple_iv"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/purple_rain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/mojito_iv"
+        app:layout_constraintTop_toBottomOf="@+id/mojito_iv" />
+
+    <ImageView
+        android:id="@+id/grape_iv"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/grapefruit_gin"
+        app:layout_constraintEnd_toEndOf="@+id/goblet_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goblet_iv" />
+
+    <ImageView
+        android:id="@+id/mojito2_iv"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/mojito_mocktails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/purple_iv"
+        app:layout_constraintTop_toBottomOf="@+id/purple_iv" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        style="@style/Widget.Material3.FloatingActionButton.Large.Tertiary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="@color/light_blue"
+        android:src="@drawable/baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

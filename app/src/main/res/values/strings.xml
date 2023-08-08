@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CocktailBar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_cocktails">My Cocktails</string>
+    <string name="add_your_first_cocktail_here">Add your first cocktail here</string>
+    <string name="cocktail_name">Cocktail Name</string>
+    <string name="description">To make this homemade</string>
+    <string name="recipe">Simply combine all the ingredients</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="save_btn">Save</string>
+</resources>
